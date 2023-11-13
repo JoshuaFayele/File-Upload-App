@@ -59,8 +59,8 @@ def main():
             st.dataframe(df)
 
 
-    elif choice == "DocumentFiles":
-        st.subheader("DocumentFiles")
+    elif choice == "Document Files":
+        st.subheader("Document Files")
         docx_file = st.file_uploader("Upload Document",
 			type=["pdf","docx","txt"])
         if st.button("Process"):
